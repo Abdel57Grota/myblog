@@ -3,7 +3,7 @@ baseURL = "https://github.com/Abdel57Grota.github.io/myblog/"
 title = "Abdel57Grota | Hugo Portfolio Template"
 theme = "somrat"
 # disable language
-disableLanguages = [] # disable language from here
+disableLanguages = [en] # disable language from here
 
 
 ############################# Plugins ##############################
