@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://github.com/Abdel57Grota.github.io/"
+baseURL = "https://github.com/Abdel57Grota.github.io/myblog/"
 title = "Abdel57Grota | Hugo Portfolio Template"
 theme = "somrat"
 # disable language
