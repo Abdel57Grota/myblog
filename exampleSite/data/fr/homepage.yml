@@ -1,0 +1,294 @@
+########################## hero area ##########################
+hero:
+  title : "I'm Kader Grota"
+
+  # animated text loop
+  occupations:
+    - "Web Developer"
+    - "Graphic Designer"
+    - "Database Manager"
+
+  # slider background image loop
+  slider_image:
+    - "images/slider/face.jpg"
+    - "images/slider/slider-1.jpg"
+    - "images/slider/slider-2.jpg"
+    - "images/slider/slider-3.jpg"
+
+  # button
+  button:
+    enable : true
+    label : "HIRE ME"
+    link : "#contact"
+
+
+####################### Full screen navigation #####################
+fullscreen_nav:
+  enable : true
+  bg_image : "images/backgrounds/full-nav-bg.jpg"
+  first_name : "Abdel"
+  last_name : "KADER"
+  
+
+########################### About ##################################
+about:
+  enable : true
+  image : "images/backgrounds/123.jpeg"
+  title : "KNOW MORE <br> ABOUT ME"
+  content : "I am a passionate data scientist who has programming, statistics, mathematics, engineering skills, I have studied machine learning, deep learning, programming , and other types of data analytics and data visualization tools."
+  # button
+  button:
+    enable : true
+    label : "DOWNLOAD MY CV"
+    link : "#" # you can put your cv in static folder and give the path here.
+
+###########################3 Experience ##############################
+experience:
+  enable : true
+  title : "EXPERIENCE"
+  experience_list:
+
+
+     # experience item loop
+    - name : "Builing recommendation systems using the algorithms Similarity, KNN and SVD"
+      company : "University of Sultan My Slimane, P.O. Box 523, 23000 Beni-Mellal, Morocco "
+      duration : "Janvier - Octobre 2020"
+      content : "Master's Degree."
+
+
+    # experience item loop
+    - name : "Reporting And Data Vizualisation"
+      company : "Bibile du VTC CallX"
+      duration : "Juillet - Août 2020  Kénitra, Maroc"
+      content : "Drive the measurement framework and dashboard/reporting strategy for all marketing."
+      
+
+      
+    # experience item loop
+    - name : "Development and implementation of a set of tools for the integration, visualization and analysis of Big Data data"
+      company : "Haut Commesariat Au Plan Maroc"
+      duration : "Juillet-Aôut 2019  Rabat, Maroc"
+      content : "Development and implementation of a set of tools for the integration, visualization and analysis of Big Data data."
+
+       # experience item loop
+    - name : "Stage de PFE à l’entité informatique site de Khouribga du Group OCP"
+      company : "Le groupe OCP (anciennement Office chérifien des phosphates)"
+      duration : "Mai - Avril 2018 Ocp , Khouribga"
+      content : " Reporting service desk & aide à la décision. SSIS  SSAS SSRS SQL SERVER  "
+
+
+############################### Skill #################################
+skill:
+  enable : true
+  title : "SKILL"
+  skill_list:
+
+    # skill item loop
+    - name : "Web Development"
+      parcentage : "75%"
+      
+    # skill item loop
+    - name : "Graphic Design"
+      parcentage : "70%"
+      
+    # skill item loop
+    - name : "Database Management"
+      parcentage : "90%"
+      
+    # skill item loop
+    - name : "Power BI "
+      parcentage : "70%"
+
+       # skill item loop
+    - name : "Excel VBA  "
+      parcentage : "70%"
+
+      # skill item loop
+    - name : "Python  "
+      parcentage : "66%"
+
+
+################################### Service ##############################3
+service:
+  enable : true
+  title : "What I Do ? "
+  service_list:
+    # service item loop
+    - name : "Web Development"
+      image : "images/icons/web-development.png"
+      
+    # service item loop
+    - name : "Graphic Design"
+      image : "images/icons/graphic-design.png"
+      
+    # service item loop
+    - name : "Database Management"
+      image : "images/icons/dbms.png"
+      
+    # service item loop
+    - name : "Software Development"
+      image : "images/icons/software-development.png"
+      
+    # service item loop
+    - name : "Digital Marketing"
+      image : "images/icons/marketing.png"
+      
+    # service item loop
+    - name : "Mobile App Development"
+      image : "images/icons/mobile-app.png"
+
+
+############################## call to action #########################
+call_to_action:
+  enable : true
+  bg_image : "images/backgrounds/need-service.jpg"
+  title : "NEED A SERVICE?"
+  button:
+    enable : true
+    label : "SAY HELLO!"
+    link : "#contact"
+
+
+############################# portfolio ################################
+portfolio:
+  enable : true
+  title : "Projets"
+  portfolio_list:
+    # portfolio item loop
+    - name : ""
+      image : "images/portfolio/gif1.gif"
+      date : ""
+      category : "Web Development"
+      
+    # # portfolio item loop
+    # - name : "Project <br> Title"
+    #   image : "images/portfolio/item2.jpg"
+    #   date : "Feb 2018"
+    #   category : "Web Development"
+      
+    # # portfolio item loop
+    # - name : "Project <br> Title"
+    #   image : "images/portfolio/item3.jpg"
+    #   date : "Feb 2018"
+    #   category : "Web Development"
+      
+    # # portfolio item loop
+    # - name : "Project <br> Title"
+    #   image : "images/portfolio/item4.jpg"
+    #   date : "Feb 2018"
+    #   category : "Web Development"
+      
+    # # portfolio item loop
+    # - name : "Project <br> Title"
+    #   image : "images/portfolio/item5.jpg"
+    #   date : "Feb 2018"
+    #   category : "Web Development"
+      
+    # # portfolio item loop
+    # - name : "Project <br> Title"
+    #   image : "images/portfolio/item6.jpg"
+    #   date : "Feb 2018"
+    #   category : "Web Development"
+      
+    # # portfolio item loop
+    # - name : "Project <br> Title"
+    #   image : "images/portfolio/item7.jpg"
+    #   date : "Feb 2018"
+    #   category : "Graphics"
+      
+    # # portfolio item loop
+    # - name : "Project <br> Title"
+    #   image : "images/portfolio/item8.jpg"
+    #   date : "Feb 2018"
+    #   category : "Graphics"
+      
+    # # portfolio item loop
+    # - name : "Project <br> Title"
+    #   image : "images/portfolio/item9.jpg"
+    #   date : "Feb 2018"
+    #   category : "Database"
+      
+    # # portfolio item loop
+    # - name : "Project <br> Title"
+    #   image : "images/portfolio/item10.jpg"
+    #   date : "Feb 2018"
+    #   category : "Database"
+      
+    # portfolio item loop
+    - name : ""
+      image : "images/portfolio/gif2.gif"
+      date : ""
+      category : "Database"
+      
+    # portfolio item loop
+    - name : ""
+      image : "images/portfolio/gif3.gif"
+      date : ""
+      category : "Graphics"
+      
+    # # portfolio item loop
+    # - name : "Project <br> Title"
+    #   image : "images/portfolio/item13.jpg"
+    #   date : "Feb 2018"
+    #   category : "Graphics"
+      
+    # # portfolio item loop
+    # - name : "Project <br> Title"
+    #   image : "images/portfolio/item14.jpg"
+    #   date : "Feb 2018"
+    #   category : "Graphics"
+      
+    # # portfolio item loop
+    # - name : "Project <br> Title"
+    #   image : "images/portfolio/item15.jpg"
+    #   date : "Feb 2018"
+    #   category : "Graphics"
+
+
+################################# Testimonial #########################33
+testimonial:
+  enable : true
+  title : "Degrees Received"
+  testimonial_slider:
+    # slider item loop
+    - name : "Master's Degree"
+      image : "images/clients/client1.png"
+      designation : "University of Sultan My Slimane, P.O. Box 523, 23000 Beni-Mellal, Morocco"
+      content : "I have studied basic software engineering subjects like DS, Algorithms, Big Data Archeticture, Big Data Analytics, Data Mining, Machine Learning, NoSQL, AI etc.."
+                
+    # slider item loop
+    - name : "Bachelor's degree"
+      image : "images/clients/client2.png"
+      designation : "University of Sultan My Slimane, P.O. Box 523, 23000 Beni-Mellal, Morocco"
+      content : "I have studied basic software engineering subjects like Java, C, JEE, Conception ( UML & Merise ), .Net, Oracle, SQL SERVER, Information System, Networking, Web Development, Project management etc.."
+
+
+######################### funfacts #############################3
+funfacts:
+  enable : true
+  funfacts_list:
+    # funfacts item loop
+    - name : "HANDS TO WORK"
+      image : "images/icons/works.png"
+      count : "100"
+      
+    # funfacts item loop
+    - name : "HAPPY CLIENT"
+      image : "images/icons/happy.png"
+      count : "200"
+      
+    # funfacts item loop
+    - name : "FINISHED PROJECT"
+      image : "images/icons/project.png"
+      count : "250"
+      
+    # funfacts item loop
+    - name : "CUPS OF COFFEE"
+      image : "images/icons/coffee.png"
+      count : "150"
+
+
+############################## contact ###########################
+contact:
+  enable : true
+  title : "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you"
